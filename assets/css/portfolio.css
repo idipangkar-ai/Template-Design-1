@@ -1,0 +1,67 @@
+.portfolio-section {
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  padding: 50px 20px;
+}
+.portfolio-title {
+  text-align: center;
+  font-size: 2.6rem;
+  font-family: var(--quaternary-text-font);
+}
+
+.portfolio-nav {
+  margin-bottom: 6rem;
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.portfolio-nav-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Ensure the list items are flex items */
+}
+
+.portfolio-nav-list {
+  margin-right: 20px; /* Add spacing between items */
+}
+
+.portfolio-nav-link {
+  color: var(--quaternary-color);
+  text-decoration: none;
+  font-family: var(--secondary-text-font);
+  transition: color 0.3s;
+}
+
+.portfolio-nav-link:hover {
+  color: var(--quinary-color);
+}
+
+.project-container {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: 6rem;
+  margin-bottom: 8rem;
+}
+
+.project-details {
+  flex: 1;
+}
+
+.project-image {
+  flex: 1; /* Take equal space */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.project-image img {
+  border-radius: 1.6rem;
+  width: 70%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

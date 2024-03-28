@@ -1,0 +1,58 @@
+/* Header styles */
+.header {
+  background-color: var(--primary-color);
+  color: var(--content-background-color);
+  padding: 20px;
+  font-family: var(--primary-text-font);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.first-word {
+  color: var(--tertiary-color);
+}
+
+.second-word {
+  color: var(--quinary-color);
+}
+
+nav {
+  display: flex;
+  font-size: 1.6rem;
+}
+
+nav a {
+  font-weight: 700;
+  color: var(--tertiary-color);
+  text-decoration: none;
+  margin-left: 20px;
+  font-family: var(--quaternary-text-font);
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: var(--quinary-color);
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  margin-left: 10px;
+}
+
+.social-icons img {
+  width: 2.4rem;
+  height: 2.4rem;
+}

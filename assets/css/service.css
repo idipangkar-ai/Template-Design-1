@@ -1,0 +1,45 @@
+/* styles.css */
+.service-section {
+  margin-bottom: 4rem;
+  margin-top: 8rem;
+  text-align: center;
+}
+
+.service-title {
+  text-align: center;
+  font-size: 2.6rem;
+  font-family: var(--quaternary-text-font);
+  margin-bottom: 4rem;
+}
+
+.service-grid {
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6rem;
+  margin: auto;
+  justify-items: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.service-container {
+  width: 250px;
+  height: 250px;
+  background-color: #000000;
+  border-radius: 1.6rem;
+  box-shadow: 0 0 10px rgba(15, 163, 177, 0.7);
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgba(15, 163, 177, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(15, 163, 177, 0.9);
+  }
+}
+
+.service-content {
+  margin-top: 10px;
+}
